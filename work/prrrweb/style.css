@@ -48,15 +48,16 @@ body {
   overflow: hidden;
   width: 100%;
   height: auto;
-  max-width: 64%;
-  top: 5%;
-  left: 0.5%;
+  max-width: 22%;
+  top: 10%;
+  left: 3%;
 }
 
 .youtube-video-container::after {
   display: block;
   content: "";
-  padding-top: 56.25%;
+  padding-top: 57%;
+  
 }
 
 .youtube-video-container iframe {
@@ -82,23 +83,13 @@ body {
   border: 3px solid white;
   max-width: 33%;
   /*box-shadow: rgba(0, 0, 255, 1) -100px 100px 200px;*/ 
-  left: 6%;
-  bottom: 1%;
+  right: 8%;
+  top: 11%;
   
 }
 
 
-.img1{
-  position: absolute;
-  padding: 1%;
-  width: 10%;
-  left: 66%;
-  top: 0%;
-  right: auto;
-  }
-
-
-
+  
 
 
 .descripcion{
@@ -114,10 +105,9 @@ body {
   border: 3px solid white;
   max-width: 30%;
   /*box-shadow: rgba(0, 0, 255, 1) -100px 100px 200px;*/ 
-  left: 60%;
-  bottom: 3%;
-  right: auto;
-  
+  right: 6%;
+  top: 3%;
+   
 }
 
 
@@ -136,27 +126,6 @@ a:link {
   }
 
 
-  .meimg {
-      max-width: 38vw;
-      max-height: 38vw;
-      display: none;
-      align-content: center;
-      position: relative;
-      top: 10px;
-      left: 48vw;
-      padding: 3%;
-      border: 3px solid white;
-    }
-    
-   
-    .descripcion:hover+.meimg {
-      display: inline;
-      align-content: center;
-      position: fixed;
-      top: 10px;
-      left: 48vw;
-      padding: 0%;
-    }
     
     .link{
       color: blue;
@@ -195,3 +164,4 @@ a:link {
     /* filter: drop-shadow(0 0 0.1rem rgba(0, 0, 255, 1)); */
     }
   
+

@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    user-select: none;
+    /*
+    font-family: 'Abel', sans-serif;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-family: 'Khula', sans-serif;
+    font-family: 'Pacifico', cursive;
+    */
+  }
+
+  .wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(10deg,#c0b0c1, #b0bac1, #b1c1b0);
+    background-size: 600% 100%;
+    animation: gradient 2s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes gradient {
+    0% {background-position: 0%}
+    100% {background-position: 100%}
+}
+
+  
+  body {
+        /*background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(248,205,200,0.77) 4.4%, rgba(200,218,248,1) 59.1% );
+        background-image: url("http://www.3dtelepresence.com/hong-kong-to-london-handshake.jpg");
+        background-color: rgba(0, 0, 255, 0.5); */
+        color: white;
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100%;
+        
+        
+  }
+  
+
+
+  .obra{
+    font-family: 'Khula', sans-serif;
+    font-size: 0.7vw;
+    color: white;
+    background-color: none;
+    text-align: left;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    position: fixed;
+    padding: 1%;
+    border: 3px solid white;
+    
+    /*box-shadow: rgba(0, 0, 255, 1) -100px 100px 200px;*/ 
+    left: 1%;
+    top: 1%;
+    right: auto;
+    
+  }
+
+  a:link {
+    color:white;
+    text-decoration: none;
+    }
+    a:visited {
+    color:white;
+    text-decoration: none;
+    }
+    a:hover {
+    color:black;
+    background-color: yellow;
+    text-decoration: none;
+    }
+
+
+    .meimg, .litimg, .eyeimg, .handimg, .stoicimg, .typeimg, .beerimg, .blankimg, .blodimg {
+  
+        max-width: 58vw;
+        max-height: 40vw;
+        display: none;
+      }
+      
+      .melink:hover+.meimg {
+        display: inline;
+        align-content: right;
+        position: absolute;
+        top: 13vw;
+        left: 33vw;
+      }
+      
+      .link{
+        color: blue;
+      }
+      
+      .hidden {
+        display: none;
+      }
+      
+      .wrapper {
+        height: 100vh;
+      }
+
+
+    .holi {
+    position: fixed;
+    float: right;
+    background-color: none;
+    padding-top:  1px;
+    padding-left:  3px;
+    padding-right:  2%;
+    top: 40%;
+    right: 10px;
+    /* filter: drop-shadow(0 0 0.1rem rgba(255, 0, 0, 1)); */
+    }
+  
+    .home {
+      position: fixed;
+      float: left;
+      background-color: none;
+      padding-top:  1px;
+      padding-left:  3px;
+      padding-right:  2%;
+      bottom: 40%;
+      right: 10px;
+      /* filter: drop-shadow(0 0 0.1rem rgba(0, 0, 255, 1)); */
+      }
+    

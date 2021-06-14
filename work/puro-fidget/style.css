@@ -48,9 +48,9 @@ body {
   overflow: hidden;
   width: 100%;
   height: auto;
-  max-width: 64%;
-  top: 5%;
-  left: 0.5%;
+  max-width: 55%;
+  top: 10%;
+  left: 3%;
 }
 
 .youtube-video-container::after {
@@ -82,23 +82,22 @@ body {
   border: 3px solid white;
   max-width: 33%;
   /*box-shadow: rgba(0, 0, 255, 1) -100px 100px 200px;*/ 
-  left: 6%;
-  bottom: 1%;
+  left: 0.5%;
+  bottom: 1.5%;
   
 }
 
 
-.img1{
-  position: absolute;
-  padding: 1%;
-  width: 10%;
-  left: 66%;
-  top: 0%;
-  right: auto;
-  }
 
-
-
+  .img2{
+    position: absolute;
+    padding: 1%;
+    width: 10%;
+    left: 60%;
+    bottom: 5%;
+    right: auto;
+    }
+  
 
 
 .descripcion{
@@ -114,10 +113,9 @@ body {
   border: 3px solid white;
   max-width: 30%;
   /*box-shadow: rgba(0, 0, 255, 1) -100px 100px 200px;*/ 
-  left: 60%;
-  bottom: 3%;
-  right: auto;
-  
+  right: 6%;
+  top: 3%;
+   
 }
 
 
@@ -195,3 +193,4 @@ a:link {
     /* filter: drop-shadow(0 0 0.1rem rgba(0, 0, 255, 1)); */
     }
   
+
