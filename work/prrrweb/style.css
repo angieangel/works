@@ -48,7 +48,7 @@ body {
   overflow: hidden;
   width: 100%;
   height: auto;
-  max-width: 22%;
+  max-width: 16%;
   top: 10%;
   left: 3%;
 }
@@ -56,7 +56,7 @@ body {
 .youtube-video-container::after {
   display: block;
   content: "";
-  padding-top: 57%;
+  padding-top:100%;
   
 }
 
@@ -67,6 +67,138 @@ body {
   width: 100%;
   height: 100%;
 }
+
+
+.youtube-video-container-2 {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  max-width: 16%;
+  top: 45%;
+  right: 30%;
+}
+
+.youtube-video-container-2::after {
+  display: block;
+  content: "";
+  padding-top:100%;
+  
+}
+
+.youtube-video-container-2 iframe {
+  position: absolute;
+  top: 0.6%;
+  left: 0.6%;
+  width: 100%;
+  height: 100%;
+}
+
+
+.youtube-video-container-3 {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  max-width: 16%;
+  top: 60%;
+  left: 11%;
+}
+
+.youtube-video-container-3::after {
+  display: block;
+  content: "";
+  padding-top:100%;
+  
+}
+
+.youtube-video-container-3 iframe {
+  position: absolute;
+  top: 0.6%;
+  left: 0.6%;
+  width: 100%;
+  height: 100%;
+}
+
+
+.youtube-video-container-4 {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  max-width: 16%;
+  top: 1%;
+  left: 60%;
+}
+
+.youtube-video-container-4::after {
+  display: block;
+  content: "";
+  padding-top:100%;
+  
+}
+
+.youtube-video-container-4 iframe {
+  position: absolute;
+  top: 0.6%;
+  left: 0.6%;
+  width: 100%;
+  height: 100%;
+}
+
+
+.youtube-video-container-5 {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  max-width: 16%;
+  top: 32%;
+  left: 32%;
+}
+
+.youtube-video-container-5::after {
+  display: block;
+  content: "";
+  padding-top:100%;
+  
+}
+
+.youtube-video-container-5 iframe {
+  position: absolute;
+  top: 0.6%;
+  left: 0.6%;
+  width: 100%;
+  height: 100%;
+}
+
+
+.youtube-video-container-6 {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  max-width: 16%;
+  bottom: 3%;
+  right: 3%;
+}
+
+.youtube-video-container-6::after {
+  display: block;
+  content: "";
+  padding-top:100%;
+  
+}
+
+.youtube-video-container-6 iframe {
+  position: absolute;
+  top: 0.6%;
+  left: 0.6%;
+  width: 100%;
+  height: 100%;
+}
+
+
 
 
 .ficha{
