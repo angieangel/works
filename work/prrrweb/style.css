@@ -5,6 +5,7 @@
   -webkit-user-select: none;
   -moz-user-select: -moz-none;
   user-select: none;
+  cursor:url('../../robot.png'), auto ;
   /*
   font-family: 'Abel', sans-serif;
   font-family: 'Baloo Tammudu 2', cursive;
@@ -202,7 +203,7 @@ body {
 
 
 .ficha{
-  font-family: 'Khula', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 0.5vw;
   color: white;
   background-color: none;
@@ -225,7 +226,7 @@ body {
 
 
 .descripcion{
-  font-family: 'Khula', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 0.5vw;
   color: white;
   background-color: none;

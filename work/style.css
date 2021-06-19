@@ -5,6 +5,7 @@
     -webkit-user-select: none;
     -moz-user-select: -moz-none;
     user-select: none;
+    cursor:url('../robot.png'), auto ;
     /*
     font-family: 'Abel', sans-serif;
     font-family: 'Baloo Tammudu 2', cursive;
@@ -46,7 +47,7 @@
 
 
   .obra{
-    font-family: 'Khula', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 0.7vw;
     color: white;
     background-color: none;
